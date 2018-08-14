@@ -7,21 +7,25 @@
     tools:context=".FrameActivity">
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androimundo"
         />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/verdeTransparente"
+
         />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorPrimaryDark"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/holamundo"
+        android:layout_gravity="center"
+        android:textSize="50sp"
         />
 
 
