@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MundoAgujasActivity"
+    tools:showIn="@layout/activity_mundo_agujas">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/horatios"
+        android:textSize="30sp"
+        android:padding="15px"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        />
+    
+    <ImageView
+        android:layout_margin="50px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imagenpaises"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/agujas"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIngresar"
+        android:layout_gravity="bottom"
+        android:layout_margin="50px"
+        />
+
+</FrameLayout>

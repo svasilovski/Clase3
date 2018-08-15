@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Clase3</string>
     <string name="holamundo">Hola Mundo!</string>
+    <string name="title_activity_mundo_agujas">MundoAgujasActivity</string>
+    <string name="horatios">Horarios de paises</string>
+    <string name="btnIngresar">Ingresar</string>
 </resources>
